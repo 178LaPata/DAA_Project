@@ -5,5 +5,5 @@ IN=$(cat "$1" | head -n 1)
 IFS=","
 for i in $IN
 do
-    echo "$i" >> "$1_cols.txt"
+    echo "$i" >> "cols.txt"
 done
